@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090a0c">
+  <meta name="description" content="A few notes on Ayos Ba? by Flow G.">
+  <title>Ayos Ba? — Flow G</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true">
+    <img src="" alt="">
+  </div>
+
+  <section class="drive-intro" id="drive-intro" aria-label="Enter the song page">
+    <button class="open-song-button" id="drive-button" type="button">CLICK TO ENTER</button>
+  </section>
+
+  <header class="topbar">
+    <a class="wordmark" href="#top">NOTES ON THE SONG</a>
+    <div class="topbar-tools">
+      <button class="icon-button" id="audio-toggle" type="button" aria-label="Play the song" aria-pressed="false" title="Play or pause the song">
+        <span aria-hidden="true">♫</span>
+      </button>
+      <span class="audio-status" id="audio-status" role="status" aria-live="polite"></span>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">ABOUT THE SONG</p>
+      <h1 id="page-title">Ayos Ba<span>?</span></h1>
+      <p class="artist">By <strong>Flow G</strong></p>
+      <p class="hero-note">Listen while you read a few notes about the song.</p>
+    </section>
+
+    <figure class="cover-art">
+      <img src="./9e0330baaa686f5647348b9bb155ae1e.1000x1000x1.png" alt="Black-and-white portrait artwork with gold details.">
+    </figure>
+
+    <section class="song-note" aria-labelledby="note-title">
+      <div class="section-label"><span>THE MESSAGE</span><span>FLOW G · AYOS BA?</span></div>
+      <h2 id="note-title">How are you?</h2>
+      <p class="intro-copy">The song is a reminder to check in on the people who matter to us. It is also about gratitude, getting through hard times, and not rushing through life.</p>
+
+      <div class="insight-grid">
+        <article class="insight-card">
+          <span class="card-number">01</span>
+          <h3>Check in</h3>
+          <p>Asking how someone is doing matters most when we take time to listen and let them know they are not alone.</p>
+        </article>
+        <article class="insight-card">
+          <span class="card-number">02</span>
+          <h3>Look around</h3>
+          <p>Some people keep going and find a reason to smile through difficult times. Remembering that can help us appreciate what we have.</p>
+        </article>
+        <article class="insight-card">
+          <span class="card-number">03</span>
+          <h3>Take your time</h3>
+          <p>Focus on what you truly need, make room for what brings you joy, and be patient—some things take time.</p>
+        </article>
+      </div>
+
+      <aside class="takeaway">
+        <span class="takeaway-symbol" aria-hidden="true">“</span>
+        <p>Sometimes, showing you care starts with one simple question.</p>
+      </aside>
+    </section>
+
+    <footer class="page-footer">
+      <span>AYOS BA? — FLOW G</span>
+      <span>LISTEN AND CHECK IN</span>
+    </footer>
+  </main>
+
+  <audio id="bg-music" loop preload="none">
+    <source src="./ayos-ba-audio.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
